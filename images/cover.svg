@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1400 2100">
-	<title>The cover for the Standard Ebooks edition of The Scarlet Pimpernel, by Countess Orczy</title>
+	<title>The cover for the Standard Ebooks edition of The Scarlet Pimpernel, by Baroness Orczy</title>
 	<style type="text/css">
 		.title-box{
 			fill-opacity: .75;
@@ -25,5 +25,5 @@
 	<path class="title-box" d="M 50,1620 1350,1620 1350,2050 50,2050 Z"/>
 	<text class="title" x="700" y="1775">THE SCARLET</text>
 	<text class="title" x="700" y="1875">PIMPERNEL</text>
-	<text class="author" x="700" y="1975">COUNTESS ORCZY</text>
+	<text class="author" x="700" y="1975">BARONESS ORCZY</text>
 </svg>
