@@ -56,7 +56,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/60</dc:source>
 		<dc:source>https://books.google.com/books?id=OA8nAAAAMAAJ</dc:source>
-		<meta property="se:production-notes">Specific French words and phrases were not italicized in the original scans. These have been preserved non-italicized, but xml:lang spans have been added.</meta>
+		<meta property="se:production-notes">Citoyen and citoyenne are used frequently throughout the book. Italicizing every use would be distracting, so they have been left non-italicized.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Scarlet_Pimpernel</meta>
