@@ -19,7 +19,7 @@ span[epub|type~="subtitle"]{
 }
 
 [epub|type~="colophon"] i i{
-	font-variant: normal;
+	font-style: normal;
 }
 
 [epub|type~="z3998:poem"] p{
