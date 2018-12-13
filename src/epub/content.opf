@@ -63,7 +63,7 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/baroness-orczy_the-scarlet-pimpernel</meta>
 		<dc:creator id="author">Baroness Orczy</dc:creator>
 		<meta property="file-as" refines="#author">Orczy, Baroness</meta>
-		<meta property="se:name.person.full-name" refines="#author">Emmuska Orczy</meta>
+		<meta property="se:name.person.full-name" refines="#author">Baroness Emma Magdolna Rozália Mária Jozefa Borbála Orczy de Orci</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Emma_Orczy</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50064803</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
