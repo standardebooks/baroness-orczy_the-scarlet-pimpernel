@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Scarlet Pimpernel</dc:title>
 		<meta property="file-as" refines="#title">Scarlet Pimpernel, The</meta>
 		<dc:subject id="subject-1">Historical fiction</dc:subject>
@@ -35,23 +35,27 @@
 		<dc:subject id="subject-4">British -- France -- Fiction</dc:subject>
 		<dc:subject id="subject-5">Nobility -- Fiction</dc:subject>
 		<dc:subject id="subject-6">Blakeney, Percy, Sir (Fictitious character) -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/60</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/60</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/60</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/60</meta>
-		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/60</meta>
-		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/60</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85061165</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh85051330</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85001072</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2007102079</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh2008108192</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh2009117267</meta>
 		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A daring Englishman with a secret identity rescues French aristocrats from the guillotine during the French Revolution.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;At the height of the French Revolution’s Reign of Terror, a mysterious daredevil rescues French aristocrats from execution and smuggles them out of France. This secretive escape artist is known to the French authorities only by the drawings of a flower, the scarlet pimpernel, that he leaves as his calling card.&lt;/p&gt;
 			&lt;p&gt;Marguerite St. Just has avoided the worst of the revolutionary turmoil. Her recent marriage to the English baronet Sir Percy Blakeney has taken her away from the chaos in France to England, where she is quickly recognized as the most fashionable and clever lady in London. But even in England, she is unable to escape the effects of the Revolution, and she is soon blackmailed into a plot to unmask and capture the elusive Scarlet Pimpernel.&lt;/p&gt;
 			&lt;p&gt;With &lt;i&gt;The Scarlet Pimpernel&lt;/i&gt;, Baroness Orczy introduced the world to a talented, adventurous hero hiding behind a dull and ineffectual secret identity. Countless imitators followed, until the “secret identity” became a common feature of adventure stories.&lt;/p&gt;
 			&lt;p&gt;In addition to the novel, Orczy wrote with her husband a stage play of the same name, which broke stage records and saw several revivals. Both the play and the novel received much critical and popular acclaim, and Orczy went on to write several sequels about the mysterious Pimpernel and his companions.&lt;/p&gt;
 			</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/60</dc:source>
 		<dc:source>https://books.google.com/books?id=OA8nAAAAMAAJ</dc:source>
