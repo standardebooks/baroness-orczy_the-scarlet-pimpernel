@@ -12,10 +12,6 @@ section[epub|type~="dedication"] p{
 	font-variant: small-caps;
 }
 
-[epub|type~="colophon"] i i{
-	font-style: normal;
-}
-
 [epub|type~="z3998:poem"] p{
 	text-align: left;
 	text-indent: 0;
