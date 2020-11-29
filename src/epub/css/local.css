@@ -1,28 +1,61 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-section[epub|type~="dedication"] p{
+/* dedication */
+section[epub|type~="dedication"] > *{
+	display: inline-block;
 	font-variant: small-caps;
+	margin: auto;
 	margin-top: 3em;
+	max-width: 80%;
 	text-align: center;
 	text-indent: 0;
+}
+
+@supports(display: flex){
+	section[epub|type~="dedication"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="dedication"] > *{
+		margin: 0;
+	}
+}
+/* end of dedication
+
+/* letters */
+footer{
+	margin-top: 1em;
+	text-align: right;
 }
 
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
+/* end of letters */
 
-[epub|type~="z3998:poem"] p{
+/* poem/song/verse */
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:song"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p > span{
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:song"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
+/* end of poem/song/verse */
