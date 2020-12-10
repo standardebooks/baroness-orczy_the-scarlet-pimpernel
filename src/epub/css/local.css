@@ -30,6 +30,7 @@ section[epub|type~="dedication"] > *{
 /* end of dedication
 
 /* letters */
+
 footer{
 	margin-top: 1em;
 	text-align: right;
