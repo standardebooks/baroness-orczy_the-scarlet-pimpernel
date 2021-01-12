@@ -63,8 +63,8 @@
 		<dc:source>https://www.gutenberg.org/ebooks/60</dc:source>
 		<dc:source>https://books.google.com/books?id=OA8nAAAAMAAJ</dc:source>
 		<meta property="se:production-notes">Citoyen and citoyenne are used frequently throughout the book. Italicizing every use would be distracting, so they have been left non-italicized after the first usage.</meta>
-		<meta property="se:word-count">85339</meta>
-		<meta property="se:reading-ease.flesch">67.69</meta>
+		<meta property="se:word-count">85317</meta>
+		<meta property="se:reading-ease.flesch">67.79</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Scarlet_Pimpernel</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/baroness-orczy_the-scarlet-pimpernel</meta>
 		<dc:creator id="author">Baroness Orczy</dc:creator>
