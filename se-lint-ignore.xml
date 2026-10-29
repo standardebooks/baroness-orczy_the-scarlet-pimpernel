@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="content.opf">
+		<ignore code="m-103">
+			<reason>Baroness Orczy is the author’s established pen name.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
