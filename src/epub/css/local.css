@@ -12,7 +12,7 @@ section[epub|type~="dedication"] > *{
 	text-indent: 0;
 }
 
-@supports(display: flex){
+@supports(display: flex) and (min-height: calc(98vh - 3em)){
 	section[epub|type~="dedication"]{
 		align-items: center;
 		box-sizing: border-box;
